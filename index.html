@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Log</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Log</title>
+  <link rel="stylesheet" href="/CSS/style.css">
 </head>
+
 <body>
 
-    <div id="padding1">
-    <p>Book</p> <input placeholder="Isbn" type="text">
-    <p>Name</p> <input placeholder="Username" type="text">
+  <div id="padding1">
+    <div id="background1">
+    <p>Book</p> <input id="ISBN" placeholder="ISBN" type="text">
+    <p>Name</p> <input id="User" placeholder="Username" type="text">
     <br><br>
-    <label for="cars">Choose a mode:</label>
+    <label for="momde">Choose a mode:</label>
+    <br>
+    <br>
     <select name="mode" id="mode">
       <option value="checkout">CheckOut</option>
       <option value="checkin">CheckIn</option>
@@ -22,7 +27,9 @@
     <br><br>
     <div id="bookoptions"></div>
     </div>
+  </div>
 
-    <script src="JS/script.js"></script>
+  <script src="JS/script.js"></script>
 </body>
+
 </html>
