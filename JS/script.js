@@ -11,3 +11,13 @@ const books2 = books.map(item => {
  });
 //console.log(books2);
 
+var devtools = function() {};
+devtools.toString = function() {
+  if (!this.opened) {
+    alert("Opened");
+  }
+  this.opened = true;
+}
+
+console.log('%c', devtools);
+// devtools.opened will become true if/when the console is opened
